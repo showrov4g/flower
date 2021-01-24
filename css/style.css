@@ -1,0 +1,90 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.clear{
+    content:'';
+    display: block;
+    clear: both;
+    overflow: hidden;
+}
+header hr{
+    height:10px;
+    background: #894aa3;
+}
+header .search{
+    position: relative;
+}
+header .search input{
+    background: #ebebea;
+}
+header .search a{
+    position: absolute;
+    right: 10px;
+}
+/* header menu area design start from here */
+.header-top .menu .navbar>a{
+    font-size: 40px;
+    font-family: Georgia;
+    font-weight: 400;
+    color: #666666;
+}
+.header-top .menu .navbar>a span{
+    font-size: 50px;
+}
+.header-top .menu ul li a{
+    font-size: 18px;
+}
+/* header menu design finish here */
+/* header bottom area */
+.header-bottom p{
+    font-size: 27px;
+    font-family: Georgia;
+}
+/* slider */
+.slider{
+  
+}
+.slider .carousel-inner img{
+    width: 100%;
+    height: 100%;
+}
+/* slider finish */
+.details .img{
+    width: 26%;
+}
+.details .img img{
+    width: 100%;
+}
+.details .text{
+    width: 74%;
+}
+.details .text h3{
+    color: #894aa3;
+    font-family: Georgia;
+}
+.details .text p{
+    color: #666;
+    font-family: Georgia;   
+    font-size: 17px; 
+}
+ /* details finish */
+ /* card area */
+.card-area .card h5{
+    color: #894aa3;
+    font-family: Georgia;
+}
+.card-area .card p{
+    font-family: Georgia;
+}
+/* card finish */
+/* contact area */
+.contact-area h4{
+    color: #666666;
+    font-family: Georgia;
+    font-size: 20px;
+}
+.contact-area P{
+    color:#666;
+}
